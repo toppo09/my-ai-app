@@ -1,29 +1,20 @@
-# MEDISIS — Medical AI Integrated System
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-人手不足時代の病院安全管理＆業務効率ポータルサイト「MEDISIS」の開発・プレビュー・遠隔共有のためのリポジトリです。
+# Run and deploy your AI Studio app
 
-## 🌐 現在の一時共有URL（iPad・外部デモ用）
+This contains everything you need to run your app locally.
 
-Macが起動しており、トンネルが接続されている間、以下の情報で外部デバイスからリアルタイムにプレビュー可能です。
+View your app in AI Studio: https://ai.studio/apps/62696894-a853-4154-a18e-c55876841c3d
 
-| **項目** | **接続情報** |
-| :--- | :--- |
-| **デモURL** | `https://tasty-berries-smash.loca.lt` |
-| **パスコード (IP)** | `222.149.53.133` |
+## Run Locally
 
-### 💡 外部デバイスでのアクセス手順
+**Prerequisites:**  Node.js
 
-1. 上記の**デモURL**にブラウザ（Safari/Chrome等）でアクセスします。
-2. セキュリティ警告画面が表示されたら、「IP Address」欄にパスコード **`222.149.53.133`** を入力します。
-3. 青い **「Continue」** ボタンをクリックすると、MEDISISの画面がロードされます。
 
----
-
-## 💻 ローカル開発環境の起動手順 (Local Development)
-
-React + TypeScript + Node.js (Express) のフルスタック環境をローカルMac上で動作させる手順です。
-
-### 1. 依存関係のインストール
-プロジェクトに必要なライブラリをセットアップします（初回およびパッケージ追加時のみ）。
-```bash
-npm install
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

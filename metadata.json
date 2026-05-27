@@ -1,0 +1,6 @@
+{
+  "name": "MEDISIS - AI Clinical Safety System",
+  "description": "次世代AI統合現場管理システム「MEDISIS」の機能紹介＆導入ロードマップ特化Webサイト。AIマニュアル体験デモ、禁忌薬チェッカー、料金・構成見積もりシミュレーター等のインタラクティブ機能を搭載。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
